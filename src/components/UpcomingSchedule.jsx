@@ -15,9 +15,9 @@ const UpcomingSchedule = () => {
             <div className="space-y-6">
                 <div>
                 <h4 className="text-sm font-semibold text-gray-900 mb-3">On Thursday</h4>
-                <div className="flex items-center justify-between gap-3">
+                <div className="flex items-center sm:items-start sm:justify-start justify-between gap-3">
                     
-                    <div className="p-3 bg-purple-50 rounded-xl">
+                    <div className="p-3 bg-[#DDE2F9] text-indigo-900 rounded-xl">
                     <div className="flex items-center space-x-3">
                         <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
                         <Stethoscope className="w-5 h-5 text-purple-600" />
@@ -27,7 +27,7 @@ const UpcomingSchedule = () => {
                     <span className="text-sm text-gray-500 font-medium">11:00 AM</span>
                     </div>
                     
-                    <div className=" p-3 bg-blue-50 rounded-xl">
+                    <div className=" p-3 bg-[#DDE2F9] text-indigo-900 rounded-xl">
                     <div className="flex items-center space-x-3">
                         <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
                         <Eye className="w-5 h-5 text-blue-600" />
@@ -43,7 +43,7 @@ const UpcomingSchedule = () => {
                 <div>
                 <h4 className="text-sm font-semibold text-gray-900 mb-3">On Saturday</h4>
                 <div className="flex items-center gap-3">
-                    <div className="p-3 bg-red-50 rounded-xl">
+                    <div className="p-3 bg-[#DDE2F9] text-indigo-900 rounded-xl">
                     <div className="flex items-center space-x-3">
                         <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
                         <Heart className="w-5 h-5 text-red-500" />
@@ -53,7 +53,7 @@ const UpcomingSchedule = () => {
                     <span className="text-sm text-gray-500 font-medium">12:00 AM</span>
                     </div>
                     
-                    <div className="p-3 bg-green-50 rounded-xl">
+                    <div className="p-3 bg-[#DDE2F9] text-indigo-900 rounded-xl">
                     <div className="flex items-center space-x-3">
                         <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
                         <Brain className="w-5 h-5 text-green-600" />
