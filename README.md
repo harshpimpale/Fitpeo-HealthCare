@@ -12,10 +12,6 @@ This project demonstrates frontend skills in **component-based architecture**, *
 * Ensure **cross-device responsiveness**.
 * Maintain **clean code** and a **logical file structure**.
 
-## 📸 Screenshot
-
-![Design Reference](public/snapshot.png)
-
 ## 🧱 Features Implemented
 
 ### 📁 Layout Structure
